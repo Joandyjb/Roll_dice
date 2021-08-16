@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Die from './Die';
+import './Die.css';
+import RollDice from './RollDice';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Die face="five"/>
+      <Die face="four"/>
+      <Die face="three"/>
+      <Die face="five"/>
+      <Die face="one"/>
+      <Die face="two"/> */}
+    < RollDice />
     </div>
   );
 }
